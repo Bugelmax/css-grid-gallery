@@ -1,0 +1,27 @@
+header{
+  background: grey;
+}
+header .wrapper{
+  max-width: 1100px;
+  padding: 10px 50px;
+  display: grid;
+  grid-template-columns: 100px 1fr;
+}
+header .wrapper img{
+  max-width: 100%;
+}
+header .wrapper nav{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end
+}
+header .wrapper nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: aqua;
+  transition: .3s;
+  text-transform: uppercase;
+}
+header .wrapper nav a:hover{
+  color: royalblue
+}
